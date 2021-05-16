@@ -75,7 +75,7 @@ class Cart {
         this.applyPIDForce(pidError);
     }
 
-    applyForce(force = 1.0) {
+    applyForce(force) {
         this.force = force;
     }
 
